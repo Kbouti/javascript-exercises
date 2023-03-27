@@ -25,9 +25,14 @@ function multiply(array){
   return product
 }
 
-const power = function() {
-	
-};
+function power(base, exponent){
+  const b = base
+  for(i = 1; i < exponent; i++){
+      console.log(base);
+      base = base * b;
+  }
+  return base;
+}
 
 const factorial = function() {
 	
