@@ -1,4 +1,3 @@
-
 const convertToCelsius = function(temp) {
   temp = (.5556 * (temp - 32))
   temp = Math.round(temp * 10) /10
@@ -12,6 +11,7 @@ const convertToFahrenheit = function(temp) {
   console.log(temp)
 return temp
 };
+
 // Do not edit below this line
 module.exports = {
   convertToCelsius,
