@@ -1,38 +1,22 @@
-function add(value1, value2){
-  let sum = value1 + value2;
-  return sum;
-}
+const add = function() {
+	
+};
 
-function subtract(value1, value2){
-  let difference = (value1 - value2);
-  return difference;
-}
+const subtract = function() {
+	
+};
 
-function sum(array){
-  let sum = 0;
-  for(i = 0; i < array.length; i++){
-      sum += array[i];
-  }
+const sum = function() {
+	
+};
 
-return sum
-}
+const multiply = function() {
 
-function multiply(array){
-  let product = 1;
-  for (i = 0; i < array.length; i++){
-      product = (product * array[i]);
-  }
-  return product
-}
+};
 
-function power(base, exponent){
-  const b = base
-  for(i = 1; i < exponent; i++){
-      console.log(base);
-      base = base * b;
-  }
-  return base;
-}
+const power = function() {
+	
+};
 
 const factorial = function() {
 	
